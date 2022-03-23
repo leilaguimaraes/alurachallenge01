@@ -7,23 +7,191 @@
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Alura Geek</title>
 </head>
 <body>
     <header class="header">
-        <a href="./index.html">
-            <img src="./src/logo_alura_geek.svg" alt="logo da Alura Geek">
-        </a>
-        <button id="login-btn">
-        Login
-        </button>
+        <div class="cabecalho-head">
+            <a href="./index.html">
+                <img src="./src/logo_alura_geek.svg" alt="logo da Alura Geek">
+            </a>
+            <button id="login-btn">
+            Login
+            </button>
 
-        <div class="searchbar">
-            <input type="search" placeholder="O que deseja encontrar?">
-            <img src="./src/lupa.svg" alt="lupa de busca">
+            <div class="searchbar">
+                <input id ="barradebusca"type="search" placeholder="O que deseja encontrar?">
+                <img src="./src/lupa.svg" alt="lupa de busca">
+            </div>
         </div>
-
+        <div class="banner">
+            <div class="banner-content">
+                <h1>Dezembro Promocional</h1>
+                <p>Produtos selecionados com 33% de desconto</p>
+                <button class="primary-button">Ver Consoles</button>
+            </div>
+        </div>
     </header>
+    <main>
+        <section class="produtosgeral">
+        <div class="titulosprodutos">
+            <h2>Star Wars</h2>
+            <a href="#" class=""> Ver Tudo
+                <img src="./src/ver_tudo_seta.svg" alt="">
+            </a>    
+        </div>
+        <ul class="produtos">
+            <li class="item">
+                <img src="./src/starwars01 (1).png" alt="imagem de controle de videogame">
+                <h3>Produto XYZ</h3>
+                <p class="preço">R$ 60,00</p>
+                <a>Ver produto</a>
+            </li>
+            <li class="item">
+                <img src="./src/starwars01 (2).png" alt="imagem de controle de videogame">
+                <h3>Produto XYZ</h3>
+                <p class="preço">R$ 60,00</p>
+                <a>Ver produto</a>
+            </li>
+            <li class="item">
+                <img src="./src/starwars01 (3).png" alt="imagem de controle de videogame">
+                <h3>Produto XYZ</h3>
+                <p class="preço">R$ 60,00</p>
+                <a>Ver produto</a>
+            </li>
+            <li class="item">
+                <img src="./src/starwars01 (4).png" alt="imagem de controle de videogame">
+                <h3>Produto XYZ</h3>
+                <p class="preço">R$ 60,00</p>
+                <a>Ver produto</a>
+            </li>
+        </ul>
+        </section>
+
+        <section class="produtosgeral">
+            <div class="titulosprodutos">
+                <h2>Consoles</h2>
+                <a href="#" class=""> Ver Tudo
+                    <img src="./src/ver_tudo_seta.svg" alt="">
+                </a>    
+            </div>
+            <ul class="produtos">
+                <li class="item">
+                    <img src="./src/controle01.png" alt="imagem de controle de videogame">
+                    <h3>Produto XYZ</h3>
+                    <p class="preço">R$ 60,00</p>
+                    <a>Ver produto</a>
+                </li>
+                <li class="item">
+                    <img src="./src/controle02.png" alt="imagem de controle de videogame">
+                    <h3>Produto XYZ</h3>
+                    <p class="preço">R$ 60,00</p>
+                    <a>Ver produto</a>
+                </li>
+                <li class="item">
+                    <img src="./src/console02.png" alt="imagem de controle de videogame">
+                    <h3>Produto XYZ</h3>
+                    <p class="preço">R$ 60,00</p>
+                    <a>Ver produto</a>
+                </li>
+                <li class="item">
+                    <img src="./src/console03.png" alt="imagem de controle de videogame">
+                    <h3>Produto XYZ</h3>
+                    <p class="preço">R$ 60,00</p>
+                    <a>Ver produto</a>
+                </li>
+                <li class="itemextra">
+                    <img src="./src/console03.png" alt="imagem de controle de videogame">
+                    <h3>Produto XYZ</h3>
+                    <p class="preço">R$ 60,00</p>
+                    <a>Ver produto</a>
+                </li>
+                <li class="itemextra">
+                    <img src="./src/console03.png" alt="imagem de controle de videogame">
+                    <h3>Produto XYZ</h3>
+                    <p class="preço">R$ 60,00</p>
+                    <a>Ver produto</a>
+                </li>
+            </ul>
+            </section>
+            <section class="produtosgeral">
+                <div class="titulosprodutos">
+                    <h2>Diversos</h2>
+                    <a href="#" class=""> Ver Tudo
+                        <img src="./src/ver_tudo_seta.svg" alt="">
+                    </a>    
+                </div>
+                <ul class="produtos">
+                    <li class="item">
+                        <img src="./src/camisa01.png" alt="imagem de controle de videogame">
+                        <h3>Produto XYZ</h3>
+                        <p class="preço">R$ 60,00</p>
+                        <a>Ver produto</a>
+                    </li>
+                    <li class="item">
+                        <img src="./src/camisa02.png" alt="imagem de controle de videogame">
+                        <h3>Produto XYZ</h3>
+                        <p class="preço">R$ 60,00</p>
+                        <a>Ver produto</a>
+                    </li>
+                    <li class="item">
+                        <img src="./src/produtos1.png" alt="imagem de controle de videogame">
+                        <h3>Produto XYZ</h3>
+                        <p class="preço">R$ 60,00</p>
+                        <a>Ver produto</a>
+                    </li>
+                    <li class="item">
+                        <img src="./src/console02.png" alt="imagem de controle de videogame">
+                        <h3>Produto XYZ</h3>
+                        <p class="preço">R$ 60,00</p>
+                        <a>Ver produto</a>
+                    </li>
+                    <li class="itemextra">
+                        <img src="./src/console03.png" alt="imagem de controle de videogame">
+                        <h3>Produto XYZ</h3>
+                        <p class="preço">R$ 60,00</p>
+                        <a>Ver produto</a>
+                    </li>
+                    <li class="itemextra">
+                        <img src="./src/console03.png" alt="imagem de controle de videogame">
+                        <h3>Produto XYZ</h3>
+                        <p class="preço">R$ 60,00</p>
+                        <a>Ver produto</a>
+                    </li>
+                </ul>
+                </section>
+    </main>
+    <footer>
+        <ul class="listadofooter">
+           <li class="linkfooter"><a href="#"> <img src="./src/logo_alura_geek.svg" alt="logo da Alura Geek"></a></li>
+           <li class="linkfooter"><a href="#">Quem somos nós</a></li>
+           <li class="linkfooter"><a href="#">Política de privacidade</a></li> 
+           <li class="linkfooter"><a href="#">Programa fidelidade</a></li> 
+           <li class="linkfooter"><a href="#">Nossas lojas</a></li> 
+           <li class="linkfooter"><a href="#">Quero ser franqueado</a></li>  
+           <li class="linkfooter"><a href="#">Anuncie aqui</a></li>  
+        </ul>
+        <form>
+            <h2>Fale Conosco</h2>
+            <div class="campoformulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="campoformulario">
+                <textarea name="Escreva sua mensagem" id="testodemensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+            </div>
+            <button type="submit" class="primary-button">Enviar mensagem</button>
+        </form>
+        <div class="creditos">
+            <p>Desenvolvido por Leila Beatriz</p>
+        </div>
+        
+    </footer>
+
+
     
 </body>
 </html>
