@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -27,14 +30,14 @@
                 <img src="./src/lupa.svg" alt="lupa de busca">
             </div>
         </div>
-        <div class="banner">
-            <div class="banner-content">
-                <h1>Dezembro Promocional</h1>
-                <p>Produtos selecionados com 33% de desconto</p>
-                <button class="primary-button">Ver Consoles</button>
-            </div>
-        </div>
     </header>
+    <div class="banner">
+        <div class="banner-content">
+            <h1>Dezembro Promocional</h1>
+            <p>Produtos selecionados com 33% de desconto</p>
+            <button class="primary-button">Ver Consoles</button>
+        </div>
+    </div>
     <main>
         <section class="produtosgeral">
         <div class="titulosprodutos">
@@ -165,26 +168,30 @@
                 </section>
     </main>
     <footer>
-        <ul class="listadofooter">
-           <li class="linkfooter"><a href="#"> <img src="./src/logo_alura_geek.svg" alt="logo da Alura Geek"></a></li>
-           <li class="linkfooter"><a href="#">Quem somos nós</a></li>
-           <li class="linkfooter"><a href="#">Política de privacidade</a></li> 
-           <li class="linkfooter"><a href="#">Programa fidelidade</a></li> 
-           <li class="linkfooter"><a href="#">Nossas lojas</a></li> 
-           <li class="linkfooter"><a href="#">Quero ser franqueado</a></li>  
-           <li class="linkfooter"><a href="#">Anuncie aqui</a></li>  
-        </ul>
-        <form>
-            <h2>Fale Conosco</h2>
-            <div class="campoformulario">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome">
-            </div>
-            <div class="campoformulario">
-                <textarea name="Escreva sua mensagem" id="testodemensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-            </div>
-            <button type="submit" class="primary-button">Enviar mensagem</button>
-        </form>
+        <div class="rodapecontainer">
+            <section class="menufooter">    
+                <a href="#"> <img src="./src/logo_alura_geek.svg" alt="logo da Alura Geek"></a>
+                <ul class="listadofooter">
+                <li class="linkfooter"><a href="#">Quem somos nós</a></li>
+                <li class="linkfooter"><a href="#">Política de privacidade</a></li> 
+                <li class="linkfooter"><a href="#">Programa fidelidade</a></li> 
+                <li class="linkfooter"><a href="#">Nossas lojas</a></li> 
+                <li class="linkfooter"><a href="#">Quero ser franqueado</a></li>  
+                <li class="linkfooter"><a href="#">Anuncie aqui</a></li>  
+            </ul>
+            </section>      
+            <form>
+                <h2>Fale Conosco</h2>
+                <div class="campoformulario">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome">
+                </div>
+                <div class="campoformulario">
+                    <textarea name="Escreva sua mensagem" id="textodemensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+                </div>
+                <button type="submit" class="primary-button">Enviar mensagem</button>
+            </form>
+        </div>
         <div class="creditos">
             <p>Desenvolvido por Leila Beatriz</p>
         </div>

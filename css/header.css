@@ -1,0 +1,64 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-size: 400;
+    min-width: 400px;
+}
+
+.cabecalho-head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+}
+
+.cabecalho-head a img{
+    width: 100px;
+    height: 28px;
+}
+#barradebusca{
+    display: none;
+    position:relative;
+}
+#login-btn{
+    height: 40px;
+    width: 133px;
+    border-radius: 0px;
+    padding: 12px, 16px, 12px, 16px;
+    color: var(--blue-hundred);
+    border: 1px solid var(--blue-hundred);
+    background-color: var(--white);
+    transition: .2s;
+}
+#login-btn:hover{
+    background: var(--blue-twenty);
+    cursor: pointer
+}
+.primary-button:hover{
+    cursor:pointer;
+    background: var(--blue-eighty);
+}
+
+@media screen and (min-width: 768px){
+    #login-btn{
+        position: absolute;
+        right: 32px;
+    }
+    .searchbar{
+        background-color: var(--black-five);
+        border-radius: 20px;
+        padding: 8px 16px;
+        position: absolute;
+        left: 164px;
+        
+    }
+    .searchbar #barradebusca{
+        display: inline-block;
+        border: none;
+        background-color: var(--black-five);
+        width: 272px;
+    }
+    .searchbar img{
+        opacity: 50%;
+    }
+}
+

@@ -1,0 +1,103 @@
+footer{
+    background-color: var(--blue-ten);
+    align-items: center;
+}
+
+.menufooter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 254px;
+    margin: auto;
+}
+
+.menufooter img{
+    width: 176px;
+    height: 50px;
+    margin: 8px;
+}
+
+.menufooter ul li {
+    margin: 16px;
+    font-size: 16px;
+}
+footer .menufooter ul li:hover{
+    color: var(--blue-hundred);
+    
+}
+form{
+    width: 95%;
+    padding: 16px;
+    margin: auto;
+}
+form h2{
+    font-weight: 700;
+}
+
+.campoformulario{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 8px 0;
+}
+.campoformulario label{
+    color: var(--black-fifty);
+    font-size: 12px;
+}
+label{
+    margin: 12px;
+}
+.campoformulario #nome, textarea{
+    border: none;
+    padding: 7px 12px;
+}
+textarea{
+    resize: none;
+    font-size: 16px;
+}
+::-webkit-input-placeholder {
+    color: #A2A2A2;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+
+
+.creditos{
+    background-color: var(--white);
+    height: 102px;
+    display: flex;
+}
+.creditos p {
+    margin: auto;
+}
+
+@media screen and (min-width: 768px){
+    footer{
+        flex-direction: column;
+        margin: auto;
+    }
+    .rodapecontainer{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    section ul{
+        text-align: left;
+    }
+    #textodemensagem {
+        height: 82px;
+    }
+    .menufooter{
+        width: 30%;
+    }
+    form{
+        width: 70%;
+        max-width: 560px;
+    }
+}
