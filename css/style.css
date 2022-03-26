@@ -33,7 +33,10 @@ body{
     padding: 12px 16px;
     border: 0px; 
     transition: .1s;
-
+}
+.primary-button:hover{
+    cursor:pointer;
+    background: var(--blue-eighty);
 }
 main{
     width: 100%;
