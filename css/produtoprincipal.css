@@ -1,0 +1,40 @@
+.produtoprincipal{
+    display: flex;
+    flex-direction: column;
+}
+.textoprodutoprincipal{
+    margin-left: 16px;
+}
+.imagemproduto{
+    width: 100vw;
+    height: 192px;
+    background-image: url(../src/starwars01\ \(3\).png);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 8px;
+}
+
+.textoprodutoprincipal h1{
+    font-size: 22px;
+    font-weight: 500;
+    
+}
+.textoprodutoprincipal{
+    margin: 16px;
+}
+
+.preço{
+    font-weight: 700;
+}
+
+@media screen and (min-width: 768px){
+    .produtoprincipal{
+        flex-direction: row;
+    }
+    .imagemproduto{
+        margin: 16px 32px 0px
+    }
+    .textoprodutoprincipal{
+        margin: 0
+    }
+}

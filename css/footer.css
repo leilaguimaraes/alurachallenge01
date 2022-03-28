@@ -28,7 +28,7 @@ footer .menufooter ul li:hover{
 }
 form{
     width: 95%;
-    padding: 16px;
+    padding: 16px 0;
     margin: auto;
 }
 form h2{
